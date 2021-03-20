@@ -2,20 +2,11 @@
 include("header.html"); 
 // no need for input validation here since that is handled with the pattern or signup.php
 $user = $_POST["user"];
-$file = "users.json";
-
-// json data storage
-$tempData -> $user = array(0);
-
-$jsonData = file_get_contents($file);
-$tempArray = json_decode($jsonData);
-array_push($tempArray, $tempData);
-$jsonOut = json_encode($tempArray);
-file_put_contents($file, $jsonData);
+$file = "users.txt";
 
 //txt data storage
 $output = $user . "," . array(0)."\n";
-file_put_contents("users.txt", $output, FILE_APPEND);
+file_put_contents($file, $output, FILE_APPEND);
 ?>
 
 <h1> Welcome to Insert Game Name Here </h1>
