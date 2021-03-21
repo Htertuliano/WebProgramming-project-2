@@ -1,0 +1,75 @@
+body {
+	background-image: url('background.jpg');
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', serif;
+	font-weight: bold;
+}
+h2 {
+	font-size: 36px;
+	text-align: center;
+	font-style: 'Trebuchet MS', sans-serif;
+}
+p {
+	color: white;
+	font-size: 20px;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+	margin-top: 0;
+	background: navy; 
+	padding: 5px;
+}
+.landing {
+	padding: 30px;
+	background: white;
+	width: 400px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+}
+.button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 125px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid blue;
+    background-color: white;
+}
+.button:hover {
+	color:white;
+	background-color: blue;
+}
+
+#signup {
+	font-size:12px;
+	font-weight: bold;
+	color: blue;
+	cursor: pointer;
+}
+#uname{ 
+	width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 10px;
+    padding-left: 8px; 
+    font-size:15px;
+    background-color: #dbdbdb;
+}
