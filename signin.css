@@ -39,6 +39,11 @@ p {
 	margin-right: auto;
 	border-radius: 25px;
 }
+
+.landing p {
+	color: black;
+}
+
 .button {
 	display: block;
 	margin-left: auto;
