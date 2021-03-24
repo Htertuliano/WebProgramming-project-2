@@ -5,7 +5,9 @@ $user = $_POST["user"];
 $file = "users.txt";
 
 //txt data storage
-$output = $user . ":0,0,0,0,0,0" ."\n";
+$array = array_fill(0, 5, 0);
+$output = $user . ":" .  implode(",", $array) . "\n";
+
 file_put_contents($file, $output, FILE_APPEND);
 ?>
 

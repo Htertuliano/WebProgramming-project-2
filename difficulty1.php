@@ -2,7 +2,7 @@
 
 <h1> Difficulty 1 </h1>
 
-<div class="quiz">
+<div class="landing">
      <form action="difficulty1-submit.php" method="post">
         <fieldset>
 
@@ -109,6 +109,8 @@
             </li>
 
         </ol>
+
+        <input class="button" type="submit" value="Submit Difficulty 1">
         </fieldset>
      </form>
 </div>

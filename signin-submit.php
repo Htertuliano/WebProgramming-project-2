@@ -5,13 +5,14 @@ $user = $_POST["user"];
 $file = "./users.txt";
 
 if(strpos(file_get_contents($file),$user) !== false) {
+    setcookie("user", "", time() - 3600);
     setcookie("user", $user);
 
 ?>
 
 <div class="landing">
 <?php
-    echo "<h2> Welcome to the game " . $_COOKIE["user"] . " </h2>";
+    echo "<h2> Welcome to the game " . $user. " </h2>";
 ?>
     <p> If you are ready to play select a dificulty </p>
     <p> Insert image difculties below <p>
