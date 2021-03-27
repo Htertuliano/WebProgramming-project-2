@@ -1,16 +1,17 @@
+difficulty6.php
 <?php include("header.html"); ?>
 
-<h1> Difficulty 1 </h1>
+<h1> Difficulty 6 </h1>
 
 <div class="landing">
-     <form action="difficulty1-submit.php" method="post">
+     <form action="difficulty6-submit.php" method="post">
         <fieldset>
 
         <ol>
-            <!-- quetion 1 correct answer is explanatory -->
+            <!-- quetion 1 -->
             <li>
                 <h2>Which answer expresses the meaning of the specified word best?</h2>
-                <b><h3> descriptive <h3></h3>
+
                 <div>
                     <input type="radio" name="q1" id="q1a" value="a">
                     <label for="q1a"> compassionate </label>
@@ -32,10 +33,10 @@
                 </div>
             </li>
 
-            <!-- question 2 answer: 19-->
+            <!-- question 2 -->
             <li>
                 <h2> Which number logically follows this series? </h2>
-                <b><h3>  4     6     9     6     14     6      ...</h3></b>
+                <h3>  4     6     9     6     14     6      ...</h3>
 
                 <div>
                     <input type="radio" name="q2" id="q2a" value="a">
@@ -58,7 +59,7 @@
                 </div>
             </li>
 
-            <!-- question 3 answer: electricity-->
+            <!-- question 3 -->
             <li>
                 <h2> Water is to a pipe as ___ is to a wire</h2>
 
@@ -84,10 +85,10 @@
             </li>
 
 
-            <!-- question 4 answer: tender-->
+            <!-- question 4 -->
             <li>
                 <h2> Which answer expresses the meaning opposite of that of the specified word best? </h2>
-                <b><h3> Tough </h3></b>
+                <h3> Tough </h3>
 
                 <div>
                     <input type="radio" name="q4" id="q4a" value="a">
@@ -112,7 +113,7 @@
 
         </ol>
 
-        <input class="button" type="submit" value="Submit Difficulty 1">
+        <input class="button" type="submit" value="Submit Difficulty 6">
         </fieldset>
      </form>
 </div>

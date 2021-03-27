@@ -1,0 +1,74 @@
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+	margin:0;
+}
+
+.float {
+	float:left;
+}
+
+.landing {
+	padding: 30px;
+	background: white;
+	width: 800px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	margin-top: 50px;
+	border: 5px solid gold;
+}
+.header {
+	margin-top: 0;
+	background: navy; 
+	padding: 20px;
+	text-align: center;
+	color: white;
+
+}
+.navbar {
+	background-color: #0859C6;
+  	overflow: hidden;
+  
+}
+.navbar a {
+  	display: block;
+  	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 20px;
+  	text-decoration: none;
+  	font-size: 20px
+
+}
+.navbar a:hover {
+  	background-color: #FCC201;
+  	color: black;
+  	border-radius: 5px;
+  	transition-duration: 0.4s;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+}
+th {
+	text-align: center;
+	font-size: 25px;
+}
+
+.left {
+	text-align
+}
+
+tr:nth-child(even) {
+  background-color: #0859C6;
+  color: gold;
+}
