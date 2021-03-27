@@ -7,22 +7,23 @@ $ans3 = $_POST["q3"];
 $ans4 = $_POST["q4"];
 
 $score = 0;
-if($ans1 == "c") {
+if($ans1 == "a") {
     $score++;
 }
 
-if($ans2 == "c") {
+if($ans2 == "a") {
     $score++;
 }
 
-if($ans3 == "b") {
+if($ans3 == "a") {
     $score++;
 }
 
-if($ans4 == "d") {
+if($ans4 == "a") {
     $score++;
 }
-
+// weight for diff
+$score *= 2;
 // change the value of $diff per difficulty
 $diff = 0;
 

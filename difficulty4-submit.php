@@ -11,18 +11,19 @@ if($ans1 == "c") {
     $score++;
 }
 
-if($ans2 == "c") {
+if($ans2 == "b") {
     $score++;
 }
 
-if($ans3 == "b") {
+if($ans3 == "a") {
     $score++;
 }
 
 if($ans4 == "d") {
     $score++;
 }
-
+// weight for diff
+$score *= 4;
 // change the value of $diff per difficulty
 $diff = 0;
 
