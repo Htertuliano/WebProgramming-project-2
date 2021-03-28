@@ -14,7 +14,7 @@
 		</div>
 
         <?php
-        if($_COOKIE['user'] !== "") {
+        if(isset($_COOKIE['user'])) {
         ?>
 		<div class="navbar">
   			<a href="tests.php">Take Our Tests</a>

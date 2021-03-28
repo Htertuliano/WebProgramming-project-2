@@ -15,7 +15,7 @@
         if(isset($_COOKIE['user'])) {
         ?>
 		<div class="navbar">
-  			<a href="tests.html">Take Our Tests</a>
+  			<a href="tests.php">Take Our Tests</a>
   			<a href="leaderboard.php">Leader Board</a>
   			<a href="signout.php">Sign Out</a>
 		</div>
