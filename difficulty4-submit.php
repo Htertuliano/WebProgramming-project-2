@@ -56,7 +56,7 @@ file_put_contents($file, $fileUpdatedStr);
 
 <div class="landing">
     <?php
-    echo "<h2> you have finished Difficulty 1 with a score of " . $score . "</h2>"
+    echo "<h2> you have finished Difficulty 4 with a score of " . $score . "</h2>"
     ?>
 
     <p style="color:black;"> Your score on the leaderboard has been updated </p>
