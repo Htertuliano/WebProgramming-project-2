@@ -1,9 +1,7 @@
-difficulty6.php
 <?php include("header2.php"); ?>
 
-<h1> Difficulty 6 </h1>
-
 <div class="landing">
+<h2> Difficulty 6 </h2>
      <form action="difficulty6-submit.php" method="post">
         <fieldset>
 
