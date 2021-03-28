@@ -1,7 +1,6 @@
 <?php 
-include("header.html");
+include("header2.php");
 
-echo "<h2> Leaderboard </h2";
 $file = "./users.txt";
 
 
@@ -26,10 +25,13 @@ asort($leader_board);
 ?>
 
 <div class="landing">
+    <center><h1 style="font-family: helvetica">Leader Board</gh1></center>
+    <br>
+    <br>
     <table>
         <tr>
-            <th> Username </th>
-            <th> Score </th>
+        <th>Username</th>
+        <th>Score</th>
         </tr>
 
     <?php

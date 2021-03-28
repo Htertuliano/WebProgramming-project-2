@@ -12,7 +12,7 @@
 		</div>
 
         <?php
-        if(!isset($_COOKIE['user'])) {
+        if(isset($_COOKIE['user'])) {
         ?>
 		<div class="navbar">
   			<a href="tests.html">Take Our Tests</a>
@@ -26,7 +26,7 @@
         ?>
 
         <div class="navbar">
-  			<a href="tests.html">Take Our Tests</a>
+  			<a href="signup.php">Sign Up To Take Our Tests</a>
   			<a href="leaderboard.php">Leader Board</a>
   			<a href="signin.php">Sign In</a>
 		</div>
@@ -34,18 +34,6 @@
         <?php
         }
         ?>
-
-		<!-- <div id="menu">
-			<center><h3>Table of Contents</h3></center>
-			<p style="text-indent: 10px;">Test Levels</p>
-			<a href="#" style="text-decoration:none"><p class="index">1</p></a>
-			<a href="#" style="text-decoration:none"><p class="index">2</p></a>
-			<a href="#" style="text-decoration:none"><p class="index">3</p></a>
-			<a href="#" style="text-decoration:none"><p class="index">4</p></a>
-			<a href="#" style="text-decoration:none"><p class="index">5</p></a>
-			<a href="#" style="text-decoration:none"><p class="index">6</p></a>
-		</div> -->
-
 
 		<div class="card">
      	 	<center><h2>CAN YOU BE A PART OF MENSA?</h2>

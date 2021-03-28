@@ -1,8 +1,7 @@
-<?php include("header.html"); ?>
-
-<h1> Difficulty 4 </h1>
+<?php include("header2.php"); ?>
 
 <div class="landing">
+    <h2> Difficulty 4 </h2>
      <form action="difficulty4-submit.php" method="post">
         <fieldset>
 

@@ -1,5 +1,5 @@
 <?php
-include("header.html");
+include("header2.php");
 
 $ans1 = $_POST["q1"];
 $ans2 = $_POST["q2"];
@@ -25,7 +25,7 @@ if($ans4 == "d") {
 // weight for diff
 $score *= 4;
 // change the value of $diff per difficulty
-$diff = 0;
+$diff = 3;
 
 
 $file = "users.txt";
