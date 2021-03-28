@@ -14,11 +14,12 @@ foreach($fileArr as $line) {
     $total = 0;
     $lineArr = explode(":", $line);
     $scores = explode(",", $lineArr[1]);
-
-    foreach($scores as $score) {
-        $total += $score;
+    if($line !== "") {
+        foreach($scores as $score) {
+            $total += $score;
+        }
+        $leaderboard[$lineArr[0]] = $total;
     }
-    $leaderboard[$lineArr[0]] = $total;
 }
 
 asort($leader_board);
