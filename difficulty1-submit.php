@@ -1,5 +1,5 @@
 <?php
-include("header.html");
+include("header2.php");
 
 $ans1 = $_POST["q1"];
 $ans2 = $_POST["q2"];
@@ -51,10 +51,15 @@ foreach($fileArr as $line) {
 $fileUpdatedStr = str_replace($replaceLine, $updated, $fileStr);
 file_put_contents($file, $fileUpdatedStr);
 
-echo "<h1> you have finished Difficulty 1 with a score of " . $score . "</h1>"
-
 ?>
 
-<p> your score on the leaderboard has been updated </p>
-<p> insert links to other difficulties </p>
-<p> insert link to leaderboard </p>
+<div class="landing">
+    <?php
+    echo "<h2> you have finished Difficulty 1 with a score of " . $score . "</h2>"
+    ?>
+
+    <p style="color:black;"> Your score on the leaderboard has been updated </p>
+    <p style="color:black;"> Use the Nav Bar to go back and select a different difficulty test </p>
+</div>
+
+<?php include("footer.html"); ?>

@@ -9,7 +9,7 @@
 	<body>
 
 		<div class="header">
-			<a href="homepage.html"><img class="float" src="logo.png" alt="logo" height="80" width="80" ></a>
+			<a href="homepage.php"><img class="float" src="logo.png" alt="logo" height="80" width="80" ></a>
 			<h1>Mensa Club</h1>
 		</div>
 
@@ -17,7 +17,7 @@
         if($_COOKIE['user'] !== "") {
         ?>
 		<div class="navbar">
-  			<a href="tests.html">Take Our Tests</a>
+  			<a href="tests.php">Take Our Tests</a>
   			<a href="leaderboard.php">Leader Board</a>
   			<a href="signout.php">Sign Out</a>
 		</div>

@@ -1,5 +1,5 @@
 difficulty6.php
-<?php include("header.html"); ?>
+<?php include("header2.php"); ?>
 
 <h1> Difficulty 6 </h1>
 

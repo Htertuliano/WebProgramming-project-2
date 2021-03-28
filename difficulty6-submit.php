@@ -7,11 +7,11 @@ $ans3 = $_POST["q3"];
 $ans4 = $_POST["q4"];
 
 $score = 0;
-if($ans1 == "b") {
+if($ans1 == "c") {
     $score++;
 }
 
-if($ans2 == "d") {
+if($ans2 == "a") {
     $score++;
 }
 
@@ -19,7 +19,7 @@ if($ans3 == "d") {
     $score++;
 }
 
-if($ans4 == "c") {
+if($ans4 == "b") {
     $score++;
 }
 // weight for diff
