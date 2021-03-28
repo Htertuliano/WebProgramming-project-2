@@ -9,8 +9,9 @@ $fileArr = explode("\n", $fileStr);
 
 $leader_board = array();
 
-$total = 0;
+
 foreach($fileArr as $line) {
+    $total = 0;
     $lineArr = explode(":", $line);
     $scores = explode(",", $lineArr[1]);
 
