@@ -7,7 +7,7 @@ $file = "./users.txt";
 $fileStr = file_get_contents($file);
 $fileArr = explode("\n", $fileStr);
 
-$leader_board = array();
+$leaderboard = array();
 
 
 foreach($fileArr as $line) {
@@ -22,7 +22,7 @@ foreach($fileArr as $line) {
     }
 }
 
-asort($leader_board);
+arsort($leaderboard);
 
 ?>
 

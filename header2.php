@@ -28,7 +28,7 @@
         ?>
 
         <div class="navbar">
-  			<a href="tests.html">Take Our Tests</a>
+  			<a href="signup.php">Sign Up To Take Our Tests</a>
   			<a href="leaderboard.php">Leader Board</a>
   			<a href="signin.php">Sign In</a>
 		</div>
